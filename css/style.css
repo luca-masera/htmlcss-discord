@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug{
+    border: 1px solid black;
+    
+}
+.container{
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(59, 206, 186);
+}
+
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+ul{
+    
+    list-style: none;
+}
+a{
+    
+}
