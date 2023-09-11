@@ -7,6 +7,11 @@
     border: 1px solid black;
     
 }
+
+.debug1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -18,9 +23,15 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    align-content: center;
 }
 
+.d-flex1{
+    display: block;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
 ul{
     list-style: none;
 }
@@ -75,4 +86,7 @@ header{
     margin: 4px 2px;
     background-color: black;
     color: white;
+}
+.colore{
+    background-color: rgb(245, 245, 245);
 }
